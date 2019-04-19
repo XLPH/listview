@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@mipmap/lan"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="145dp"
+        android:layout_height="60dp"
+        android:text="@string/name"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"/>
+    <TextView
+        android:id="@+id/tv_price"
+        android:text="@string/price"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv_name"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"/>
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_name"
+        android:layout_toRightOf="@id/tv_name"/>
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/info"
+        android:layout_alignBaseline="@+id/check_box"
+        android:layout_toEndOf="@+id/check_box"
+        android:layout_toRightOf="@id/check_box"/>
+
+
+</RelativeLayout>

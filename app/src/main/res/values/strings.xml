@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Listview</string>
+    <string name="info">商品详情</string>
+    <string name="name">新一兰樱花名牌吊坠</string>
+    <string name="price"> ￥169</string>
+    <string name="total_price">计算总价</string>
+    <string name="select_all">全选</string>
+    <string name="select_none">反选</string>
+
+</resources>
